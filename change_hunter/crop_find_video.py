@@ -1,6 +1,6 @@
 import torch
 
-from sam3 import build_sam3_video_model
+from sam3.model_builder import build_sam3_video_model
 
 
 class SegEarthOV3VideoTracker:
